@@ -1,0 +1,32 @@
+{
+  "name": "Shop-Tracker",
+  "version": "0.1.0",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron -r babel-register .",
+    "test": "electron-mocha"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "electron": "^1.6.2",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "mysql": "^2.0.1",
+    "password-validator": "^2.2.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "validator": "^7.0.0",
+    "webpack": "^2.4.1"
+  }
+}
