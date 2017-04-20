@@ -1,10 +1,18 @@
 'use strict'
+require('babel-core')
+// import {transform} from 'babel-core'
+// import * as babel from 'babel-core'
+// require('babel-core').transform('code', {presets: 'electron'})
+// require('babel-core').transform('code', {presets: ['electron', 'react', 'es2015']})
+// require('babel-register')
+import {app, BrowserWindow} from 'electron'
+// import BrowserWindow from 'browser-window'
 
-const {app, BrowserWindow, ipcMain} = require('electron')
+// const {app, BrowserWindow, ipcMain} = require('electron')
 // const babel = require('babel-core')
 // import {transform} from 'babel-core'
 // import * as babel from 'babel-core'
-require('babel-core').transform('src/renderer/index/index')
+// require('babel-core').transform('src/renderer/index/index')
 // babel.transform()
 
 let windows = []

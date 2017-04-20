@@ -2,22 +2,19 @@
 // const babel = require('babel-core')
 // import {transform} from 'babel-core'
 // // import * as babel from 'babel-core'
-// // require("babel-core").transform("code", options)
+// require('babel-core').transform('code', {presets: ['electron', 'react', 'es2015']})
 // babel.transform()
 // const React = require('react')
 // const ReactDOM = require('react-dom')
+
+// require('babel-register')
+
 import React from 'react'
 import ReactDOM from 'react-dom'
-console.log(React)
-console.log(ReactDOM)
-ReactDOM.render(
-  <h1>Hello, world!</h1>,
-  document.getElementById('root')
-)
 
-// ReactDOM.render(
-//   React.createElement(
-//     'h1',
-//     'Hello World'
-//   )
-// )
+window.onload = function () {
+  ReactDOM.render(
+    <h1>Hello, world!</h1>,
+    document.getElementById('root')
+  )
+}
